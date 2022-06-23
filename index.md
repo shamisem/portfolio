@@ -1,3 +1,9 @@
+---
+layout: home
+title: Emma Arakelyan
+---
+
+
 ## Hello! I'm Emma, a technical writer
 
 <section class="introduction">
