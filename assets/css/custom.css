@@ -105,6 +105,13 @@ nav ul {
  padding: 0 10em;
 }
 
+.introduction a {
+ border-bottom: 0;
+ border: 1px solid;
+ padding: .5em 1em;
+ border-radius: 5px;
+}
+
 #portfolio {
  display: flex;
  flex-wrap: wrap;
