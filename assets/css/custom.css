@@ -98,6 +98,13 @@ nav ul {
  border: none;
 }
 
+.introduction {
+ display: flex;
+ justify-content: space-evenly;
+ text-align: center;
+ padding: 0 10em;
+}
+
 #portfolio {
  display: flex;
  flex-wrap: wrap;
