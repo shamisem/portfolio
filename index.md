@@ -2,5 +2,5 @@
 
 <section class="introduction">
 <a href="https://emmaos.gitbook.io/portfolio/">Browse my portfolio</a>
-<a href="https://emmaos.gitbook.io/portfolio/">Contact</a>
+<a href="/contact">Contact</a>
 </div>
