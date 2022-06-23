@@ -1,0 +1,396 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter');
+
+::selection {
+  color: #FBAF00
+}
+
+body {
+  font-family: Inter, sans-serif;
+  font-size: 100%;
+  background: #fcf5f1;
+  color: #0A014F;
+  line-height: 180%;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px solid;
+  color: #8B786D;
+  font-weight: 600;
+  transition: 0.3s;
+  transition-timing-function: linear;
+}
+
+a:hover {
+  color: #FBAF00;
+}
+
+.wrapper {
+  padding: 1em 20em;
+}
+
+.wrapper li {
+ line-height: 200%;
+}
+
+.content h2 {
+ margin-top: 1em;
+}
+
+header {
+  padding: 2em 20em;
+}
+
+header ul li {
+  display: inline-block;
+  padding-right: 3em;
+}
+
+header ul li:last-of-type {
+  padding-right: 0;
+}
+
+nav span {
+ font-size: 130%;
+}
+
+nav {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+nav ul {
+  padding: 0;
+  margin-left: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: lowercase;
+  font-size: 100%;
+}
+
+#homepage {
+}
+
+
+.qmark {
+ width: fit-content;
+}
+
+.qmark:hover .tooltip {
+  display: block;
+  position: absolute;
+  color: #fcf5f1;
+  background: #0A014F;
+  border-radius: 2px;
+  padding: .5em 1em;
+  
+}
+.tooltip {
+  display: none;
+}
+
+#homepage h2 {
+ text-align: center;
+ font-size: 120%;
+ margin: 2em 0;
+ border: none;
+}
+
+#portfolio {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
+
+#portfolio .portfolio-item {
+ padding: 2em 0;
+ background: #f0ebe859;
+ border: 3px solid #8b786d59;
+ border-radius: 10px;
+ box-shadow: 5px 5px #8b786d;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ width: 45%;
+}
+
+#portfolio .portfolio-item {
+ margin-bottom: 3em;
+}
+
+#portfolio .portfolio-item:last-of-type {
+
+}
+
+.portfolio-item .img {
+ font-size: 300%;
+ width: 100%;
+ padding: .5em;
+ text-align: center;
+}
+
+.portfolio-item .img img {
+  max-width: 30%;
+ margin: auto;
+}
+
+.portfolio-item .description {
+ display: inline-block;
+ width: 100%;
+ padding: 0 3em;
+}
+
+.portfolio-item .title {
+ font-weight: bold;
+}
+
+.portfolio-item p {
+ margin-top: .5em;
+}
+
+.portfolio-item .read-link {
+ margin-top: 1em;
+}
+
+article {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
+nav, h1, h2 {  }
+
+h1 {
+ text-align: center;
+ padding-bottom: 1em;
+ 
+}
+
+h1::before, h1::after {
+ content: "—";
+ padding: 0 1em;
+}
+
+#homepage h1 {
+  font-size: 150%;
+  text-align: center;
+  line-height: 190%;
+}
+
+#homepage h1::before, #homepage h1::after {
+ content: "";
+ padding: 0;
+}
+
+h2 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: .25em;
+}
+
+footer {
+  text-align: center;
+  color: #ccc
+}
+
+footer .social-media {
+ padding: 1em;
+ font-size: 130%;
+}
+
+.linkedin:hover {
+ color: #2867b2;
+}
+
+hr {
+  border: none;
+  text-align: center;
+  font-size: 200%;
+  padding-top: 1em;
+}
+
+hr::before {
+    content: "***";
+    border: none;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #8b786d;
+}
+
+.tabs-group > input[type="radio"] {
+  position: absolute;
+  left: -250vw;
+}
+.tabs-group .tab-content {
+  display: none;
+}
+.tabs-group > input:first-child:checked ~ .tab-contents > .tab-content:first-child,
+.tabs-group > input:nth-child(3):checked ~ .tab-contents > .tab-content:nth-child(2),
+.tabs-group > input:nth-child(5):checked ~ .tab-contents > .tab-content:nth-child(3),
+.tabs-group > input:nth-child(7):checked ~ .tab-contents > .tab-content:nth-child(4),
+.tabs-group > input:nth-child(9):checked ~ .tab-contents > .tab-content:nth-child(5),
+.tabs-group > input:nth-child(11):checked ~ .tab-contents > .tab-content:nth-child(6) {
+  display: block;
+}
+.tabs-group > label {
+  position: relative;
+  display: inline-block;
+  padding: 15px;
+  font-size: 90%;
+  border-radius: 10px 10px 0 0;
+  border: 1px solid transparent;
+  border-bottom: 0;
+  cursor: pointer;
+  font-weight: bolder;
+}
+.tabs-group > label:hover,
+.tabs-group > input:focus + label {
+  color: #06c;
+}
+.tabs-group > label:hover::after,
+.tabs-group > input:focus + label::after,
+.tabs-group > input:checked + label::after {
+  background: #06c;
+}
+.tabs-group > input:checked + label {
+  border-color: #ccc;
+  border-bottom: 1px solid #fff;
+  margin-bottom: -1px;
+}
+.tab-content {
+  padding: 30px 0;
+  border-top: 1px solid #ccc;
+}
+
+.tab-content h3 {
+  text-align: center;
+}
+
+.portfolio-area {
+ padding: 2em;
+}
+
+.disclaimer {
+ color: #a1a1a1;
+ font-size: 80%;
+ display: block;
+}
+
+.portfolio-area .window {
+ border: 1px solid #ccc;
+ padding: 2em;
+ border-radius: 10px;
+ background: white;
+ text-align: center;
+}
+
+.portfolio-area .window .header, .portfolio-area .window .description {
+ display: block;
+}
+
+.portfolio-area .window .header {
+ margin-bottom: 1em;
+ font-weight: bold;
+ font-size: 110%;
+}
+
+.portfolio-area .window button {
+ padding: 1em 2em;
+ border: none;
+ font-size: 90%;
+ margin: 1em 0;
+ background: #8B786D;
+ color: white;
+ border-radius: 5px;
+}
+
+.portfolio-area .window input[type="text"] {
+border: 1px solid #FBAF00;
+padding: .5em;
+font-size: 80%;
+border-radius: 3px;
+color: #0A014F;
+}
+
+.portfolio-area .window .inline-error-input {
+border: 1px solid #FBAF00;
+}
+
+.portfolio-area .window .inline-error {
+ display: block;
+ font-size: 0.9em;
+ color: #FBAF00;
+}
+
+.portfolio-area .window .inline-error a {
+ color: #FBAF00;
+ font-size: 0.9em;
+}
+
+.user-journey {
+ list-style: none;
+ padding: 0;
+ text-align: center;
+}
+
+.user-journey li::after {
+ display: block;
+ font-family: 'Font Awesome 5 Free';
+ font-weight: 900;
+ content: "\f063";
+ text-align: center;
+}
+
+.user-journey li:last-of-type::after {
+ display: none;
+}
+
+
+/* for mobile and tablet screens */
+
+@media screen and (max-width: 480px) {
+  
+ .wrapper {
+  padding: 1em;
+}
+
+header {
+  padding: 2em;
+}
+
+nav ul {
+  padding: 0;
+  display: block;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 1em;
+}
+  
+}
+
+@media screen and (max-width: 768px) {
+ .wrapper {
+  padding: 1em;
+}
+
+header {
+  padding: 2em;
+}
+
+nav ul {
+  padding: 0;
+  display: block;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 1em;
+}
+}
+
+@media screen and (max-width: 1024px) {
+}
