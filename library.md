@@ -21,9 +21,5 @@ A collection of books that helped me hone my craft and will likely be useful for
 * Donna Spencer, "A Practical Guide to Information Architecture"
 * Susan Weinschenk, "100 Things Every Designer Needs to Know About People"
 
-## How to improve your product thinking
-At its heart, documentation is a product that solves problems. 
-* Steve Krug, "Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability"
-
 ## Why fonts matter
 * Jason Santa Maria, "On Web Typography"
