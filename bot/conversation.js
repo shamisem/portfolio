@@ -12,7 +12,7 @@ const chat = {
         text: 'I specialize in cyber security, blockchain, and data analytics.',
         options: [
             {
-                text: "That's nice, could I see your portfolio?",
+                text: "That's nice, could I see your CV and portfolio?",
                 next: 3
             },
             {
@@ -22,15 +22,15 @@ const chat = {
         ]
     },
     3: {
-        text: 'Of course. I have a portfolio website built with GitBook: <a target="_blank" href="https://emmaos.gitbook.io/portfolio/">Portfolio</a>',
+        text: 'Of course. I have a portfolio website built with GitBook: <a target="_blank" href="https://emmaos.gitbook.io/portfolio/">Portfolio</a>. <br> My CV is available in PDF format (<a href="#">Download</a>). You can also browse my work history on LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/emmatechwriter">Emma Arakelyan</a>.',
         options: [
             {
-                text: 'I like it. How do I contact you?',
+                text: 'I like these. How do I contact you?',
                 next: 4
             }
         ]
     },
     4: {
-        text: 'Just send me a message at <a href="mailto:me@emmatechwriter.com">me@emmatechwriter.com</a>.',
+        text: 'Just send me a message at <a href="mailto:me@emmatechwriter.com">me@emmatechwriter.com</a> or send a connection request on <a target="_blank" href="https://www.linkedin.com/in/emmatechwriter">LinkedIn</a>.',
     },
 };
