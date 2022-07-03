@@ -1,6 +1,6 @@
 const chat = {
     1: {
-        text: 'Hi! I\'m Emma, a technical writer.',
+        text: 'Hello! I\'m Emma, a technical writer.',
         options: [
             {
                 text: '👋',
@@ -9,7 +9,7 @@ const chat = {
         ]
     },
     2: {
-        text: 'I specialize in cyber security, blockchain, and data analytics.',
+        text: 'I specialize in cyber security, blockchain, and data analytics. I have experience with both developer and end-user documentation, and I love the Docs as Code approach.',
         options: [
             {
                 text: "That's nice, could I see your CV and portfolio?",
