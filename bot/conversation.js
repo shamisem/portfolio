@@ -23,6 +23,12 @@ const chat = {
     },
     3: {
         text: 'Of course. I have a portfolio website built with GitBook: <a target="_blank" href="https://emmaos.gitbook.io/portfolio/">Portfolio</a>',
+        options: [
+            {
+                text: 'I like it. How do I contact you?',
+                next: 4
+            }
+        ]
     },
     4: {
         text: 'Just send me a message at <a href="mailto:me@emmatechwriter.com">me@emmatechwriter.com</a>.',
