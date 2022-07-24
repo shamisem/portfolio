@@ -15,7 +15,8 @@ body {
 a {
   text-decoration: none;
   border-bottom: 1px solid;
-  color: #8C5E58;
+  text-shadow: 1px 1px 1px #fff;
+  color: #fcf5f1;
   font-weight: 600;
   transition: 0.3s;
   transition-timing-function: linear;
@@ -106,10 +107,10 @@ nav ul {
 }
 
 .introduction a {
- border-bottom: 0;
  border: 1px solid;
  padding: .5em 1em;
- border-radius: 5px;
+ background: #fff;
+ box-shadow: 1px 1px 1px black;
 }
 
 #portfolio {
