@@ -113,6 +113,11 @@ nav ul {
  box-shadow: 1px 1px 1px black;
 }
 
+.introduction a:hover {
+  color: inherit;
+  opacity: 0.6;
+}
+
 #portfolio {
  display: flex;
  flex-wrap: wrap;
