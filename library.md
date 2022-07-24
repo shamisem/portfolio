@@ -4,7 +4,7 @@ title: Technical writing library
 ---
 
 # Technical writing library
-Here's a collection of books that helped me hone my craft and will likely be useful for other writers as well. Most of these are quite obviously pertinent to technical writing, and the rest will help you grow as a writer in general.
+Here's a collection of books that helped me hone my craft and will likely be useful for other writers as well.
 
 ## How to write better
 * William Zinsser, "On Writing Well"
