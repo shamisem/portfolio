@@ -11,6 +11,8 @@ title: Emma Arakelyan
 <a href="/contact">Contact</a>
 </section>
 
+<hr>
+
 <section class="bot">
   <h2>Let's talk</h2>
         <div id="peekobot-container">
